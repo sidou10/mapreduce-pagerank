@@ -28,12 +28,12 @@ The end of the final output contains the nodes with highest pagerank score
 ## Pipeline:
 1. Preprocessing MapReduce to get a list of (nodeId, initialPageRank / [adjacencyList])
 ```
-*Example: *
+Example:
 75885	1.3178876896110913E-5 / [7900, 16086]
 ```
 2. Iteration MapReduce to repete until convergence (10 rounds for our particular example)
-Example after 5 iterations:
 ```
+Example after 5 iterations:
 75885	1.9768315344166374E-6 / [7900, 16086]
 ```
 3. Postprocessing to sort pageranks (see final output)
