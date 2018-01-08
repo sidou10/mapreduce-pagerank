@@ -33,6 +33,8 @@ Example:
 75885	1.3178876896110913E-5 / [7900, 16086]
 ```
 2. Iteration MapReduce to repeat until convergence (10 rounds for our particular example)
+
+The formula and pseudocode is available at this <a href="http://www.dcs.bbk.ac.uk/%7Edell/teaching/cc/book/ditp/ditp_ch5.pdf">link</a> (beginning page 11).
 ```
 Example after 5 iterations:
 75885	1.9768315344166374E-6 / [7900, 16086]
