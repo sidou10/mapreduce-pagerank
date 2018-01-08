@@ -10,6 +10,7 @@
 ...
 ```
 - Final output: list of (Pagerank, NodeId) sorted in ascending order
+
 The end of the final output contains the nodes with highest pagerank score
 ```
 ...
